@@ -25,9 +25,7 @@ SECRET_KEY = 'django-insecure-+8v#1px9wu0wj#rq*=%atkz@c8x0)&-%-1s%5*m^68(sum03v@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [ '.onrender.com',
-    'localhost',
-    '127.0.0.1',]
+ALLOWED_HOSTS = ['https://ecommerce-chi-olive-43.vercel.app/']
 
 
 # Application definition
@@ -42,8 +40,9 @@ INSTALLED_APPS = [
     'ecommerce_app',
     'rest_framework',
     'corsheaders',
+'cloudinary', 'cloudinary_storage'
 ]
-
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
