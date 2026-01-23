@@ -23,10 +23,16 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-+8v#1px9wu0wj#rq*=%atkz@c8x0)&-%-1s%5*m^68(sum03v@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': 'dvt5zd9qa',
+    'API_KEY': '276862579672962',
+    'API_SECRET': 'O53AWVzWcsHzcBriWK-2zQ2MByE'
+}
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 # Application definition
 
