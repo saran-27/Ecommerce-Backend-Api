@@ -3,10 +3,18 @@ from rest_framework import serializers
 
 from .models import *
 
-class Product_Serializer(ModelSerializer):
+class ProductSerializer(serializers.ModelSerializer):
+    image = serializers.SerializerMethodField()
+
     class Meta:
-        model=Product
-        fields='__all__'
+        model = Product
+        fields = '__all__'
+
+    def get_image(self, obj):
+        if obj.image:
+            return obj.image.url
+        return None
+
 
 class CartItem_Serializer(serializers.ModelSerializer):
     product_name=serializers.CharField(source='product.name',read_only=True)
