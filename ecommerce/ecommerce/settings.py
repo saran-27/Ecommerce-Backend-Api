@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-+8v#1px9wu0wj#rq*=%atkz@c8x0)&-%-1s%5*m^68(sum03v@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://ecommerce-chi-olive-43.vercel.app/']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -91,7 +91,7 @@ DATABASES = {
 
 
 
-CORS_ALLOW_ALL_ORIGINS = 'https://ecommerce-chi-olive-43.vercel.app/'
+CORS_ALLOW_ALL_ORIGINS = True
 
 
 
@@ -138,5 +138,5 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR / 'media'
+# MEDIA_URL = '/media/'
+# MEDIA_ROOT = BASE_DIR / 'media'
