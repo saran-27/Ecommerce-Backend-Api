@@ -45,9 +45,6 @@ cloudinary.config(
     api_key=CLOUDINARY_STORAGE["API_KEY"],
     api_secret=CLOUDINARY_STORAGE["API_SECRET"],
 )
-
-DEFAULT_FILE_STORAGE = "cloudinary_storage.storage.MediaCloudinaryStorage"
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -60,7 +57,8 @@ INSTALLED_APPS = [
     'ecommerce_app',
     'rest_framework',
     'corsheaders',
-'cloudinary', 'cloudinary_storage'
+    'cloudinary',
+    'cloudinary_storage'
 ]
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -157,5 +155,3 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# MEDIA_URL = '/media/'
-# MEDIA_ROOT = BASE_DIR / 'media'
