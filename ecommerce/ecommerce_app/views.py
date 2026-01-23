@@ -20,7 +20,7 @@ class ProductsAPI_And_category(APIView):
         if categories:
             products = Product.objects.filter(category__name=categories)
 
-        serializer = Product_Serializer(products, many=True).data
+        serializer = ProductSerializer(products, many=True).data
         return Response(serializer)
 
 
@@ -28,11 +28,11 @@ class ProductsDetail_ById(APIView):
     def get(self,request,id=None):
         if id==None:
             products = Product.objects.all()
-            serializer = Product_Serializer(products, many=True).data
+            serializer = ProductSerializer(products, many=True).data
             return Response(serializer)
         else:
             products = Product.objects.get(id=id)
-            serializer = Product_Serializer(products).data
+            serializer = ProductSerializer(products).data
             return Response(serializer)
 
 class AddToCart(APIView):
