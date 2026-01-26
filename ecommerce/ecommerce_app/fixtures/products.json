@@ -7,7 +7,6 @@
     "description": "mobile detail here",
     "price": "34000.00",
     "category": 3,
-    "image": "products/Vivo_v50_dzZMrb2.jpg",
     "created_at": "2026-01-23T04:54:08.363Z"
   }
 },
@@ -19,7 +18,6 @@
     "description": "laptop detail",
     "price": "64000.00",
     "category": 3,
-    "image": "products/asus_tuf_7ZHD56p.jpg",
     "created_at": "2026-01-23T04:54:36.624Z"
   }
 },
@@ -31,7 +29,6 @@
     "description": "mobile detail",
     "price": "40000.00",
     "category": 3,
-    "image": "products/gaming_phone_tgx1vVx.jpg",
     "created_at": "2026-01-23T04:55:07.367Z"
   }
 },
@@ -43,7 +40,6 @@
     "description": "dress detail",
     "price": "1500.00",
     "category": 2,
-    "image": "products/oldmoney_pNqvQ5p.jpg",
     "created_at": "2026-01-23T04:55:34.404Z"
   }
 },
@@ -55,7 +51,7 @@
     "description": "outfits detail",
     "price": "2000.00",
     "category": 2,
-    "image": "products/blazzer_d1M2YEQ.png",
+
     "created_at": "2026-01-23T04:55:58.174Z"
   }
 },
@@ -67,7 +63,6 @@
     "description": "book details",
     "price": "500.00",
     "category": 1,
-    "image": "products/bugbounty_vmtOp8r.jpg",
     "created_at": "2026-01-23T04:56:29.822Z"
   }
 },
@@ -79,7 +74,6 @@
     "description": "book detail",
     "price": "499.00",
     "category": 1,
-    "image": "products/Alps_pQtuHtL.jpeg",
     "created_at": "2026-01-23T04:57:08.763Z"
   }
 },
@@ -91,7 +85,6 @@
     "description": "book detail",
     "price": "399.00",
     "category": 1,
-    "image": "products/Art_4xwhqJy.jpeg",
     "created_at": "2026-01-23T04:57:30.027Z"
   }
 },
@@ -103,7 +96,6 @@
     "description": "book detail",
     "price": "499.00",
     "category": 1,
-    "image": "products/horror_collection_o9YwHk7.jpg",
     "created_at": "2026-01-23T04:57:57.968Z"
   }
 },
@@ -115,7 +107,6 @@
     "description": "mobile detail",
     "price": "54000.00",
     "category": 3,
-    "image": "products/iqoo-13_2_9Ux536t.jpg",
     "created_at": "2026-01-23T05:01:37.766Z"
   }
 },
@@ -127,7 +118,6 @@
     "description": "ps5 detail",
     "price": "50000.00",
     "category": 3,
-    "image": "products/ps5_Unz5ytg.jpg",
     "created_at": "2026-01-23T05:02:06.532Z"
   }
 },
@@ -139,7 +129,6 @@
     "description": "ps5 cd detail",
     "price": "4999.00",
     "category": 3,
-    "image": "products/ps5_cd_GTVpnRZ.jpg",
     "created_at": "2026-01-23T05:02:35.262Z"
   }
 },
@@ -151,7 +140,6 @@
     "description": "tshirt 1 detail",
     "price": "499.00",
     "category": 2,
-    "image": "products/Tshirt-1_PgsKfdW.jpeg",
     "created_at": "2026-01-23T05:03:08.650Z"
   }
 },
@@ -163,7 +151,6 @@
     "description": "tshirt 2",
     "price": "499.00",
     "category": 2,
-    "image": "products/Tshirt-2_SO9i9Gz.jpeg",
     "created_at": "2026-01-23T05:03:37.915Z"
   }
 }
