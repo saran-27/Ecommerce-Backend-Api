@@ -12,7 +12,10 @@ class ProductSerializer(serializers.ModelSerializer):
 class CartItem_Serializer(serializers.ModelSerializer):
     product_name=serializers.CharField(source='product.name',read_only=True)
     price=serializers.IntegerField(source="product.price",read_only=True)
-    image=serializers.ImageField(source="product.image",read_only=True)
+    image_key = serializers.CharField(
+        source="product.image_key",
+        read_only=True
+    )
 
     class Meta:
         model=CartItem
